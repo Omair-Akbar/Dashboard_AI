@@ -1,6 +1,8 @@
 import { Avatar } from "@/components/ui/avatar"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { MoreHorizontal } from "lucide-react"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { Button } from "@/components/ui/button"
 
 const vaults = [
   {
@@ -59,7 +61,7 @@ export function VaultTable() {
             <TableCell className="font-medium">
               <div className="flex items-center gap-2">
                 <Avatar className="h-6 w-6">
-                  <img src={`https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/orange_prodpictdollar_1484336219.png`} alt={vault.name} />
+                  <img src={`/placeholder.svg?height=24&width=24`} alt={vault.name} />
                 </Avatar>
                 <div>
                   <div className="font-medium">{vault.name}</div>
@@ -95,7 +97,18 @@ export function VaultTable() {
               </div>
             </TableCell>
             <TableCell>
-              <MoreHorizontal className="h-4 w-4 text-muted-foreground" />
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="ghost" size="icon">
+                    <MoreHorizontal className="h-4 w-4 text-muted-foreground" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem>View Details</DropdownMenuItem>
+                  <DropdownMenuItem>Edit Vault</DropdownMenuItem>
+                  <DropdownMenuItem className="text-red-600">Remove Vault</DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
             </TableCell>
           </TableRow>
         ))}
