@@ -5,6 +5,7 @@ import { MetricsCard } from "@/components/metrics-card"
 import { StatsChart } from "@/components/stats-chart"
 import { VaultTable } from "@/components/vault-table"
 import { ChevronDown } from "lucide-react"
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -23,19 +24,19 @@ export default function Page() {
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             <DropdownMenuItem>
-              <img src="/placeholder.svg?height=32&width=32" className="mr-2 h-5 w-5" alt="Ethereum" />
+              <Image src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/orange_prodpictdollar_1484336219.png" className="mr-2 h-5 w-5" alt="Ethereum" />
               Ethereum Network
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <img src="/placeholder.svg?height=32&width=32" className="mr-2 h-5 w-5" alt="BSC" />
+              <Image src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/orange_prodpictdollar_1484336219.png" className="mr-2 h-5 w-5" alt="BSC" />
               BSC Network
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <img src="/placeholder.svg?height=32&width=32" className="mr-2 h-5 w-5" alt="Polygon" />
+              <Image src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/orange_prodpictdollar_1484336219.png" className="mr-2 h-5 w-5" alt="Polygon" />
               Polygon Network
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <img src="/placeholder.svg?height=32&width=32" className="mr-2 h-5 w-5" alt="Avalanche" />
+              <Image src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/orange_prodpictdollar_1484336219.png" className="mr-2 h-5 w-5" alt="Avalanche" />
               Avalanche Network
             </DropdownMenuItem>
           </DropdownMenuContent>

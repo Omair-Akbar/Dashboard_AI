@@ -3,6 +3,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Search, Star } from "lucide-react"
+import Image from "next/image"
 
 const markets = [
   {
@@ -63,7 +64,7 @@ export default function MarketPage() {
               <TableRow key={market.symbol}>
                 <TableCell>
                   <div className="flex items-center gap-2">
-                    <img
+                    <Image
                       src={`https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/orange_prodpictdollar_1484336219.png`}
                       alt={market.name}
                       className="h-8 w-8 rounded-full"
