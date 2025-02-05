@@ -32,7 +32,7 @@ export default function Page() {
               BSC Network
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <Image src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/orange_prodpictdollar_1484336219.png" className="mr-2 h-5 w-5" alt="Polygon" />
+              <Image src="https://www.rp-content/uploads/2017/01/orange_prodpictdollar_1484336219.png" className="mr-2 h-5 w-5" alt="Polygon" />
               Polygon Network
             </DropdownMenuItem>
             <DropdownMenuItem>
