@@ -3,6 +3,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { MoreHorizontal } from "lucide-react"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 const vaults = [
   {
@@ -61,7 +62,7 @@ export function VaultTable() {
             <TableCell className="font-medium">
               <div className="flex items-center gap-2">
                 <Avatar className="h-6 w-6">
-                   src={`/placeholder.svg?height=32&width=32`} alt={vault.name} />
+                  <Image src={`/placeholder.svg?height=32&width=32`} alt={vault.name} />
                 </Avatar>
                 <div>
                   <div className="font-medium">{vault.name}</div>
