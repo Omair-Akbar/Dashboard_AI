@@ -64,7 +64,7 @@ export default function MarketPage() {
                 <TableCell>
                   <div className="flex items-center gap-2">
                     <img
-                      src={`/placeholder.svg?height=32&width=32`}
+                      src={`https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/orange_prodpictdollar_1484336219.png`}
                       alt={market.name}
                       className="h-8 w-8 rounded-full"
                     />

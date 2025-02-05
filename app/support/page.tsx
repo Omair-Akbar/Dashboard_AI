@@ -94,7 +94,7 @@ export default function SupportPage() {
         <Card className="flex h-[600px] flex-col">
           <div className="flex items-center gap-4 border-b p-4">
             <Avatar>
-              <AvatarImage src="/placeholder.svg" />
+              <AvatarImage src="/placeholder.svg?height=32&width=32" />
               <AvatarFallback>CS</AvatarFallback>
             </Avatar>
             <div>

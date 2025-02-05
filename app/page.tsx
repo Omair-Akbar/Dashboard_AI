@@ -23,19 +23,19 @@ export default function Page() {
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             <DropdownMenuItem>
-              <img src="/placeholder.svg?height=20&width=20" className="mr-2 h-5 w-5" alt="Ethereum" />
+              <img src="/placeholder.svg?height=32&width=32" className="mr-2 h-5 w-5" alt="Ethereum" />
               Ethereum Network
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <img src="/placeholder.svg?height=20&width=20" className="mr-2 h-5 w-5" alt="BSC" />
+              <img src="/placeholder.svg?height=32&width=32" className="mr-2 h-5 w-5" alt="BSC" />
               BSC Network
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <img src="/placeholder.svg?height=20&width=20" className="mr-2 h-5 w-5" alt="Polygon" />
+              <img src="/placeholder.svg?height=32&width=32" className="mr-2 h-5 w-5" alt="Polygon" />
               Polygon Network
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <img src="/placeholder.svg?height=20&width=20" className="mr-2 h-5 w-5" alt="Avalanche" />
+              <img src="/placeholder.svg?height=32&width=32" className="mr-2 h-5 w-5" alt="Avalanche" />
               Avalanche Network
             </DropdownMenuItem>
           </DropdownMenuContent>
